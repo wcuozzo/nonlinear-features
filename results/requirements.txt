@@ -1,0 +1,12 @@
+# Versions used to validate the standalone snapshot (Python 3.13.5).
+torch==2.10.0
+numpy==2.3.3
+pandas==2.3.3
+scipy==1.16.2
+matplotlib==3.10.6
+tqdm==4.67.1
+jupyterlab==4.4.9
+nbformat==5.10.4
+nbclient==0.10.2
+nbconvert==7.16.6
+ipykernel==6.30.1

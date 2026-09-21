@@ -1,0 +1,5 @@
+{
+  "store": "data_and_models/results_canonical_sweep_2026-08-18_seed42",
+  "status": "reported",
+  "note": "Saved all-untied sweep used for the reported analysis. The included training code is the current implementation; see results/REPRODUCING.md for rerun guidance."
+}

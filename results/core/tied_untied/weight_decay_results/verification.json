@@ -1,0 +1,149 @@
+{
+  "independent_check": "NumPy float64 forward pass on the shared one-million-example test set, averaged over examples and features",
+  "checked_final_training_states": 225,
+  "checked_test_points": 28,
+  "maximum_absolute_mse_difference": 8.268831556967893e-10,
+  "maximum_final_5000_step_relative_validation_change": 0.006814238653631244,
+  "checks": [
+    {
+      "id": "unregularized_tied",
+      "numpy_mse": 0.005248080670442496,
+      "absolute_difference": 2.5205487003132632e-11
+    },
+    {
+      "id": "mean_predictor",
+      "numpy_mse": 0.030886395843527186,
+      "absolute_difference": 8.268831556967893e-10
+    },
+    {
+      "id": "wd0_pictured_longer_training",
+      "numpy_mse": 0.003123529636176115,
+      "absolute_difference": 2.960264845752736e-12
+    },
+    {
+      "id": "wd0.0001_pictured_longer_training",
+      "numpy_mse": 0.0031237296332994047,
+      "absolute_difference": 3.8908936836334895e-13
+    },
+    {
+      "id": "wd0.0003_pictured_longer_training",
+      "numpy_mse": 0.0031238211437737895,
+      "absolute_difference": 6.943162191019869e-12
+    },
+    {
+      "id": "wd0.001_pictured_longer_training",
+      "numpy_mse": 0.003124685838123406,
+      "absolute_difference": 1.143017971938498e-13
+    },
+    {
+      "id": "wd0.003_longer_training",
+      "numpy_mse": 0.0031303597860961978,
+      "absolute_difference": 1.743484696892228e-12
+    },
+    {
+      "id": "wd0.01_longer_training",
+      "numpy_mse": 0.0031378724614076915,
+      "absolute_difference": 2.1519240382683602e-12
+    },
+    {
+      "id": "wd0.03_longer_training",
+      "numpy_mse": 0.0031514789350391642,
+      "absolute_difference": 3.855048225087643e-12
+    },
+    {
+      "id": "wd0.1_longer_training",
+      "numpy_mse": 0.0032132130636425434,
+      "absolute_difference": 8.200988499407202e-12
+    },
+    {
+      "id": "wd0.2_longer_training",
+      "numpy_mse": 0.0033278697249505646,
+      "absolute_difference": 9.059820602064228e-12
+    },
+    {
+      "id": "wd0.3_longer_training",
+      "numpy_mse": 0.003489298502344809,
+      "absolute_difference": 2.2321066002473078e-11
+    },
+    {
+      "id": "wd0.5_longer_training",
+      "numpy_mse": 0.004042112843812194,
+      "absolute_difference": 4.031063070147889e-11
+    },
+    {
+      "id": "wd0.7_longer_training",
+      "numpy_mse": 0.004746461771230534,
+      "absolute_difference": 4.721483620739875e-12
+    },
+    {
+      "id": "wd0.7884_crossover_warm_0.7",
+      "numpy_mse": 0.005054082602694154,
+      "absolute_difference": 3.966193953125474e-11
+    },
+    {
+      "id": "wd0.8879_crossover_warm_1.0",
+      "numpy_mse": 0.005294483730471773,
+      "absolute_difference": 2.9787454620955334e-11
+    },
+    {
+      "id": "wd1_longer_training",
+      "numpy_mse": 0.005484386679487098,
+      "absolute_difference": 6.121072485681944e-11
+    },
+    {
+      "id": "wd1.145_crossover_warm_1.0",
+      "numpy_mse": 0.005923974834706375,
+      "absolute_difference": 2.6009404699434135e-11
+    },
+    {
+      "id": "wd1.31_crossover_warm_1.0",
+      "numpy_mse": 0.0068017473546832085,
+      "absolute_difference": 1.7648654239421635e-11
+    },
+    {
+      "id": "wd1.5_longer_training",
+      "numpy_mse": 0.007917471457560775,
+      "absolute_difference": 7.477693464430502e-11
+    },
+    {
+      "id": "wd2_longer_training",
+      "numpy_mse": 0.012405459184133851,
+      "absolute_difference": 8.118420692648787e-11
+    },
+    {
+      "id": "wd3_longer_training",
+      "numpy_mse": 0.02013846861506202,
+      "absolute_difference": 2.5776113882214347e-11
+    },
+    {
+      "id": "wd5_longer_training",
+      "numpy_mse": 0.026460354557444155,
+      "absolute_difference": 1.96607660707393e-12
+    },
+    {
+      "id": "wd10_longer_training",
+      "numpy_mse": 0.029688386923028047,
+      "absolute_difference": 2.3610759181114105e-11
+    },
+    {
+      "id": "wd30_longer_training",
+      "numpy_mse": 0.03075035839383573,
+      "absolute_difference": 2.0384270660311898e-11
+    },
+    {
+      "id": "wd100_longer_training",
+      "numpy_mse": 0.030874219407474167,
+      "absolute_difference": 3.167344858612253e-11
+    },
+    {
+      "id": "wd300_longer_training",
+      "numpy_mse": 0.030885044613045542,
+      "absolute_difference": 1.0740117128982263e-11
+    },
+    {
+      "id": "wd1000_longer_training",
+      "numpy_mse": 0.030886295821240084,
+      "absolute_difference": 3.2085965828709817e-12
+    }
+  ]
+}
